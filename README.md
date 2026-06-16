@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧠 RAG-Based Document Q&A Chatbot
 
 > Upload any document (PDF, Word, TXT) and ask questions — the AI answers from YOUR file, not the internet.
@@ -259,3 +260,7 @@ A: The system prompt explicitly tells the LLM to ONLY answer from the provided c
 
 **Q: What's the difference between RAG and fine-tuning?**
 A: Fine-tuning bakes knowledge into model weights (expensive, static). RAG retrieves at runtime (cheap, updatable, explainable).
+=======
+# RAG-based-document-Q-A-chatbot
+RAG-based document Q&amp;A chatbot
+>>>>>>> 08042a98b5e23d065195100124a309ebf4f08388
