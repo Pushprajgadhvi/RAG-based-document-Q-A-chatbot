@@ -29,8 +29,6 @@ Upload a PDF and start asking questions instantly — no setup required.
 | LLM Provider | **Groq API** |
 | Server       | Uvicorn |
 
-*(Update this table with your actual frontend framework / vector DB / embedding model if different.)*
-
 ---
 
 ## 📂 Project Structure
@@ -94,7 +92,6 @@ npm run dev
 - **Frontend** → Deployed on [Vercel](https://vercel.com)
 - **Backend** → Deployed on [Hugging Face Spaces](https://huggingface.co/spaces)
 
-> ⚠️ Make sure `GROQ_API_KEY` is added as a **Secret** in your Hugging Face Space settings (not a public variable), and restart the Space after adding it.
 
 ---
 
