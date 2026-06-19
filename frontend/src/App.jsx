@@ -4,7 +4,7 @@ import DocumentUploader from "./components/DocumentUploader";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL || "https://pushpraj10-ragchatbot.hf.space";
 
 export default function App() {
   const [sessionId, setSessionId] = useState(null);

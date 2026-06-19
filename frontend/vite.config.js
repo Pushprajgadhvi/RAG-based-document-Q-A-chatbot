@@ -8,7 +8,7 @@ export default defineConfig({
     // Proxy API calls to backend during development
     proxy: {
       "/api": {
-        target: "http://localhost:8000",
+        target: "https://pushpraj10-ragchatbot.hf.space/",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
